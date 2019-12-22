@@ -37,5 +37,167 @@
 
 </html>
 
+--------------CSS-------------------
+
+*{margin:0; padding:0;}
+
+body{
+text-align: center;
+z-index: 1;
+background-color: black;
+}
+
+img.background{
+position: relative;
+left: 40px;
+width: 1250px;
+height: 610px;
+animation: invisible 7s;
+}
+
+img.logo{
+position: relative;
+top: -600px;
+left: -620px;
+width: 100px;
+height: 100px;
+animation: invisible 7s;
+}
+
+section{
+position: absolute;
+top:70px;
+left: 500px;
+width: 400px;
+height: 500px;
+border: 1px solid white;
+z-index: 1;
+border-radius: 12px;
+background-color: rgba(99, 146, 193,0.5);
+animation: invisible 4s;
+}
+
+div.Interface{
+position: absolute;
+top: 10px;
+left: 10px;
+width: 95%;
+height: 120px;
+border: 1px solid white;
+}
+
+p.Title{
+position: relative;
+top: 45px;
+font-weight: bold;
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+letter-spacing: .25px;
+cursor: pointer;
+font-size: 24px;
+color: white;
+animation: invisible 7s;
+}
+
+div.MidInterface{
+position: absolute;
+width: 95%;
+height: 345px;
+left: 10px;
+top: 140px;
+}
+
+p.ID{
+position: relative;
+top: 110px;
+left: 15px;
+border: 1px solid white;
+text-align: left;
+width: 85px;
+height: 20px;
+}
+
+div.Mid_1{
+position: relative;
+top: 90px;
+width: 95%;
+height: 35px;
+border: none;
+left: 10px;
+border-radius: 10px;
+}
+
+div.Mid_2{
+position: relative;
+top: 130px;
+left: 10px;
+width: 95%;
+height: 35px;
+border: none;
+border-radius: 10px;
+    
+}
+
+input.TxtUsername{
+width: 100%;
+height: 100%;
+border: none;
+text-align: center;
+border-radius: 10px;
+font-weight: bold;
+animation: invisible 7s;
+border: 1px solid #1682EF;
+}
+
+input.TxtPassword{
+width: 100%;
+height: 100%;
+border: none;
+text-align: center;
+font-weight: bold;
+border-radius: 10px;
+animation: invisible 7s;
+border: 1px solid #1682EF
+}
+
+div.BtV{
+position: relative;
+top: 165px;
+left: 40px;
+width: 80%;
+height: 35px;
+border: none;
+}
+
+input.Bt{
+width: 100%;
+height: 100%;
+animation: invisible 7s;
+border: 1px solid white;
+text-align: center;
+border-radius: 10px;  
+background-color: black;
+color: white;
+}
+
+div.Interface:hover{
+background-color: rgba(0, 0, 0,0.5);
+color: white;
+cursor: pointer;
+}
+
+input:focus:invalid{
+border: black;
+}
+
+@keyframes invisible {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+
 
 
